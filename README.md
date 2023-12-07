@@ -6,7 +6,7 @@ https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm/#t
 The code will:
 - Read the bytes from disk
 - Allocate a memory RW region in memory
-- Copy the dll sections to allocate memory and change .text region to RX
+- Copy the dll sections to the allocated memory and change .text region to RX
 - Apply the necessary relocations
 - Resolve function addresses and patch the IAT (currently only by the function name)
 - Run the entry point code (it will only execute if our code runs from DllMain, DLL_PROCESS_ATTACH)
