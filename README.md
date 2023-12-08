@@ -15,4 +15,4 @@ Future features:
 - Resolve function addresses by ordinal
 - Create a slice of exported functions and their addresses
 
-  Blog post coming soon on: www.scriptchildie.com
+  Blog post: https://www.scriptchildie.com/code-injection-techniques/5.-reflective-dll-injection
